@@ -11,4 +11,4 @@ Hello! I’m **Swati Khichi**, a passionate and results-driven designer , With a
 
 I have a natural curiosity for learning new things, which allows me to stay on top of the latest trends and advancements in my field. My mission is to continually evolve and grow.
 -------------
-Thank you for visiting my portfolio! 
+<br> Thank-you<br>
