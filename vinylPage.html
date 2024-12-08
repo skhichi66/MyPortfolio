@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinyl Cover Card</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+        font-family: 'Zen Dots', cursive;
+      margin: 0;
+      padding: 0;
+      background-color: #ffe6e6;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .card {
+      width: 700px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .card-description {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <!-- Page Heading -->
+  <h1>Vinyl Cover</h1>
+  
+  <!-- Single Card -->
+  <div class="card">
+    <img src="images/katyPerry.jpeg" alt="Vinyl Cover">
+    <h2 class="card-title">Teenage Dream</h2>
+    <p class="card-description">Katy Perry's iconic Teenage Dream album cover design. Featuring colorful and dreamy visuals, it's a hallmark of pop culture.</p>
+  </div>
+
+</body>
+
+</html>
