@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Work</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+  <style>
+    /* Navbar Hover Effects */
+    .navbar {
+      background-color: #f8d7da;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar-brand {
+      font-family: 'Zen Dots', cursive;
+      font-size: 24px;
+      color: #e91e63;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .navbar-brand:hover {
+      color: #333;
+    }
+
+    .navbar-links {
+      display: flex;
+    }
+
+    .nav-link {
+      font-family: 'Zen Dots', cursive;
+      color: #333;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: #e91e63;
+      transform: scale(1.1);
+    }
+
+    /* Work Section */
+    .work-section {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #ffe6e6;
+    }
+
+    .section-title {
+      font-family: 'Zen Dots', cursive;
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .work-item {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .work-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .work-title {
+      font-family: 'Zen Dots', cursive;
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .work-number {
+      font-size: 28px;
+      font-weight: 700;
+      color: #e91e63;
+      margin-right: 10px;
+    }
+
+    .work-link {
+      font-family: 'Zen Dots', cursive;
+      font-size: 16px;
+      color: #333;
+      text-decoration: underline;
+      transition: color 0.3s ease;
+    }
+
+    .work-link:hover {
+      color: #e91e63;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #f8d7da;
+      padding: 15px;
+      text-align: center;
+      font-family: 'Zen Dots', cursive;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+
+    .footer:hover {
+      color: #e91e63;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar-brand">Portfolio</a>
+    <div class="navbar-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="skills.html" class="nav-link">My Skills</a>
+      <a href="works.html" class="nav-link active" style="color: #e91e63;">Works</a>
+    </div>
+  </nav>
+
+  <!-- Work Section -->
+  <section class="work-section">
+    <h2 class="section-title">My Work</h2>
+    <div class="container" style="max-width: 1200px; margin: 0 auto;">
+      <div class="row justify-content-center" style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <!-- Work Item 1 -->
+        <div class="col-md-5 col-lg-4 mb-4" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); text-align: left;">
+          <div class="work-item">
+            <div class="work-title">
+              <span class="work-number">01</span> Branding Campaign
+            </div>
+            <a href="brandCamp.html" class="work-link">View</a>
+          </div>
+        </div>
+        <!-- Work Item 2 -->
+        <div class="col-md-5 col-lg-4 mb-4" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); text-align: left;">
+          <div class="work-item">
+            <div class="work-title">
+              <span class="work-number">02</span> Rendering (AutoCAD)
+            </div>
+            <a href="rendring.html" class="work-link">View</a>
+          </div>
+        </div>
+        <!-- Work Item 3 -->
+        <div class="col-md-5 col-lg-4 mb-4" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); text-align: left;">
+          <div class="work-item">
+            <div class="work-title">
+              <span class="work-number">03</span> Posters
+            </div>
+            <a href="poster.html" class="work-link">View</a>
+          </div>
+        </div>
+        <!-- Work Item 4 -->
+        <div class="col-md-5 col-lg-4 mb-4" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); text-align: left;">
+          <div class="work-item">
+            <div class="work-title">
+              <span class="work-number">04</span> Vinyl Cover
+            </div>
+            <a href="vinylPage.html" class="work-link">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2024 Swati's Portfolio
+  </footer>
+</body>
+
+</html>
